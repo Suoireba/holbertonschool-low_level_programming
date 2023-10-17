@@ -1,7 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-
 /**
  * main - Entry point
  *
@@ -13,7 +10,7 @@ int main(void)
 	int digit;
 
 
-	while (digit =0; digit < 10; digit++)
+	for (digit = 0; digit < 10; digit++)
 	{
 		putchar(digit + '0');
 	}
