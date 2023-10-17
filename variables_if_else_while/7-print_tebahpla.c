@@ -7,14 +7,14 @@
 int main(void)
 {
 
-	char letter = 'a';
+	char letter;
 
 
-	while (letter >= 'z')
+	for (letter = 'z'; letter >= 'a'; letter--)
 	{
 		putchar(letter);
-		letter++;
 	}
+
 	putchar('\n');
 
 	return (0);
