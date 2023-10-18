@@ -7,17 +7,17 @@
 int main(void)
 {
 
-	int digit;
+	char hex;
 
 
-	for (digit = 0; digit < 10; digit++)
+	for (hex = '0'; hex <= '9'; hex++)
 	{
-		putchar(digit + '0');
-
-	for (letter = 'a'; letter <= 'f'; letter++)
-		putchar(letter);
+		putchar(hex);
 	}
-
+	for (hex = 'a'; hex <= 'f'; hex++)
+	{
+	putchar(hex);
+	}
 	putchar('\n');
 
 	return (0);
