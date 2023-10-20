@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <ctype.h>
 /**
- * _isalpha - Check for alphabetic character 
+ * _isalpha - Check for alphabetic character
  * @c: The character t be checked
  * Return: For alphabetic character , 0 otherwise.
  */
