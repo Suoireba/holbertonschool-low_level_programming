@@ -7,7 +7,7 @@
  * @r: The character to be checked
  * Return: Returns the value of the last digit
  */
-int print_last_digit(int r)
+int print_last_digit(int abs(r))
 {
 	_putchar ('0' + abs(r) % 10);
 	return (abs (r) % 10);
