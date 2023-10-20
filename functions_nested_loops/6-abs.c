@@ -2,9 +2,9 @@
 #include <ctype.h>
 #include <stdlib.h>
 /**
- * abs - Check for a integer
+ * _abs - Check for a integer
  * @r: The character to be checked
- *  Return: the absolute value of an integer.
+ * Return: the absolute value of an integer.
  */
 int _abs(int r)
 {
