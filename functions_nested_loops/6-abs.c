@@ -8,6 +8,6 @@
  */
 int _abs(int)
 {
-	abs(98);
-
+	abs(98)
+	return abs;
 }
