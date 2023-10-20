@@ -3,7 +3,7 @@
 #include <ctype.h>
 /**
  * _isalpha - Check for alphabetic character 
- * @c: The character t be checked .
+ * @c: The character t be checked
  * Return: For alphabetic character , 0 otherwise.
  */
 int _isalpha(int c)
