@@ -8,16 +8,16 @@
  */
 int _isalpha(int c)
 {
-	int e;
+	int temp;
 
 	if (isalpha(c))
 	{
-		e = 1;
+		temp = 1;
 	}
 	else
 	{
-		e = 0;
+		temp = 0;
 	}
-	return (e);
+	return (temp);
 
 }
