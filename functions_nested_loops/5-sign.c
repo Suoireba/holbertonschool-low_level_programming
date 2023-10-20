@@ -5,7 +5,7 @@
  * @c: The character t be checked
  * Return: For return of sign of a number , 0 otherwise.
  */
-int print_sign(int n);
+int print_sign(int n)
 {
 	int temp;
 
