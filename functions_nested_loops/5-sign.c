@@ -2,8 +2,8 @@
 #include <ctype.h>
 #include "main.h"
 /**
- * print_sign: prints the sign of a number
- * @c: The character t be checked
+ * print_sign - prints the sign of a number
+ * @n: The character t be checked
  * Return: For return of sign of a number , 0 otherwise.
  */
 int print_sign(int n)
