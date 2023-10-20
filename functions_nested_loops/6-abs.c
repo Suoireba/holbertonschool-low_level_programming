@@ -6,8 +6,7 @@
  * @98: The character to be checked
  *  Return: the absolute value of an integer.
  */
-int _abs(int)
+int _abs(int r)
 {
-	abs(98)
-	return abs;
+	return (abs(r));
 }
