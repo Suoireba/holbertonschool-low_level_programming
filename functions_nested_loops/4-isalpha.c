@@ -2,14 +2,14 @@
 #include <stdio.h>
 #include <ctype.h>
 /**
- * _isalpha - Checks for lowercase character
- * @c: The character to be checked.
- * Return: 1 if character is lowercase , 0 otherwise.
+ * _isalpha - Check for alphabetic character 
+ * @c: The character t be checked .
+ * Return: For alphabetic character , 0 otherwise.
  */
 int _isalpha(int c)
 {
-
 	int e;
+
 	if (isalpha(c))
 	{
 		e = 1;
@@ -17,7 +17,6 @@ int _isalpha(int c)
 	else
 	{
 		e = 0;
-	
 	}
 	return (e);
 
