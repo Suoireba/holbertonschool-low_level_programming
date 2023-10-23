@@ -1,10 +1,10 @@
 #include "main.h"
 /**
  * Reset_to_98 - reset the pointer target
- * @adress: waiting pointer
+ * @n: waiting pointer
  *
  */
-void reset_to_98(int *adress)
+void reset_to_98(int *n)
 {
-	*adress = 98;
+	*n = 98;
 }
